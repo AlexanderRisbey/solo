@@ -3,15 +3,15 @@
 const styles = [
   {
     type: 'href',
-    body: 'C:\\css\\normalize.css',
+    body: '/css/normalize.css',
   },
   {
     type: 'href',
-    body: 'C:\\css\\webflow.css',
+    body: '/css/webflow.css',
   },
   {
     type: 'href',
-    body: 'C:\\css\\solo-architects.webflow.css',
+    body: '/css/solo-architects.webflow.css',
   },
   {
     type: 'sheet',

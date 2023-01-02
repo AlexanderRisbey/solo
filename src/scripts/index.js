@@ -27,7 +27,7 @@ const loadingScripts = scripts.concat(null).reduce((active, next) => Promise.res
   const scriptEl = document.createElement('script')
   scriptEl.type = 'text/javascript'
   let loading
-
+  console.log("HELLO ")
   if (active.type == 'src') {
     scriptEl.src = active.body
 

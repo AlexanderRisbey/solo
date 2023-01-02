@@ -59,25 +59,25 @@ class DetailBlogView extends React.Component {
     return (
       <span>
         <style dangerouslySetInnerHTML={{ __html: `
-          @import url(C:\\css\\normalize.css);
-          @import url(C:\\css\\webflow.css);
-          @import url(C:\\css\\solo-architects.webflow.css);
+          @import url(/css/normalize.css);
+          @import url(/css/webflow.css);
+          @import url(/css/solo-architects.webflow.css);
         ` }} />
         <span className="af-view">
           <div>
             <div data-w-id="a1e4a4fe-8958-4d97-d653-0e5ab1a1f9e9" data-animation="default" data-collapse="medium" data-duration={60} data-easing="linear" data-easing2="linear" role="banner" className="af-class-navbar w-nav">
               <nav role="navigation" className="af-class-nav-menu w-nav-menu">
-                <a href="index.html" className="af-class-nav-link w-nav-link">Home</a>
-                <a href="about.html" className="af-class-nav-link w-nav-link">About</a>
-                <a href="projects.html" className="af-class-nav-link w-nav-link">Work</a>
-                <a href="service-detail.html" className="af-class-nav-link w-nav-link">Services</a>
-                <a href="contact.html" className="af-class-nav-link w-nav-link">Contact</a>
+                <a href="/" className="af-class-nav-link w-nav-link">Home</a>
+                <a href="about" className="af-class-nav-link w-nav-link">About</a>
+                <a href="projects" className="af-class-nav-link w-nav-link">Work</a>
+                <a href="service-detail" className="af-class-nav-link w-nav-link">Services</a>
+                <a href="contact" className="af-class-nav-link w-nav-link">Contact</a>
               </nav>
               <div className="af-class-nav-button w-nav-button">
                 <div className="af-class-icon w-icon-nav-menu" />
               </div>
               <div className="af-class-div-block">
-                <a href="index.html" className="af-class-brand w-nav-brand"><img src="images/logo_1.svg" loading="lazy" data-w-id="a1e4a4fe-8958-4d97-d653-0e5ab1a1f9eb" alt className="af-class-image" />
+                <a href="/" className="af-class-brand w-nav-brand"><img src="images/logo_1.svg" loading="lazy" data-w-id="a1e4a4fe-8958-4d97-d653-0e5ab1a1f9eb" alt className="af-class-image" />
                   <div className="af-class-text-block">Solo</div>
                   <div className="af-class-text-block-2">Architects</div>
                 </a>
@@ -110,7 +110,7 @@ class DetailBlogView extends React.Component {
                         <a href="tel:+905074446462" className="af-class-link-2">+90 (507) 444 6462</a>
                         <div className="af-class-footer-number">+90 (507) 444 64 62</div>
                       </div>
-                      <a data-w-id="006893bb-e490-891c-7130-f6fdd71ac787" href="contact.html" className="af-class-button-link w-inline-block">
+                      <a data-w-id="006893bb-e490-891c-7130-f6fdd71ac787" href="contact" className="af-class-button-link w-inline-block">
                         <div className="af-class-button-link-line-hover" />
                         <div className="af-class-button-link-line" />
                         <div>Send A message</div>
@@ -123,16 +123,16 @@ class DetailBlogView extends React.Component {
                     </div>
                     <ul role="list" className="af-class-footer-menu w-list-unstyled">
                       <li className="af-class-footer-help-link-item">
-                        <a href="utility-pages/style-guide.html" className="af-class-footer-link">Style Guide</a>
+                        <a href="utility-pages/style-guide" className="af-class-footer-link">Style Guide</a>
                       </li>
                       <li className="af-class-footer-help-link-item">
-                        <a href="utility-pages/untitled.html" className="af-class-footer-link">Instructions</a>
+                        <a href="utility-pages/untitled" className="af-class-footer-link">Instructions</a>
                       </li>
                       <li className="af-class-footer-help-link-item">
-                        <a href="utility-pages/licenses.html" className="af-class-footer-link">Licenses</a>
+                        <a href="utility-pages/licenses" className="af-class-footer-link">Licenses</a>
                       </li>
                       <li className="af-class-footer-help-link-item">
-                        <a href="utility-pages/changelog.html" className="af-class-footer-link">Changelog</a>
+                        <a href="utility-pages/changelog" className="af-class-footer-link">Changelog</a>
                       </li>
                     </ul>
                     <h4 className="af-class-heading-5">Have a question, a project? <br />We'd love to discuss</h4>
@@ -141,26 +141,26 @@ class DetailBlogView extends React.Component {
                     <div className="w-layout-grid af-class-grid-menu-item">
                       <ul role="list" className="w-list-unstyled">
                         <li className="af-class-footer-link-item">
-                          <a href="index.html" className="af-class-footer-link">Home</a>
+                          <a href="/" className="af-class-footer-link">Home</a>
                         </li>
                         <li className="af-class-footer-link-item">
-                          <a href="about.html" className="af-class-footer-link">About Us</a>
+                          <a href="about" className="af-class-footer-link">About Us</a>
                         </li>
                         <li className="af-class-footer-link-item">
-                          <a href="projects.html" className="af-class-footer-link">Projects</a>
+                          <a href="projects" className="af-class-footer-link">Projects</a>
                         </li>
                         <li className="af-class-footer-link-item">
-                          <a href="contact.html" className="af-class-footer-link">Contact</a>
+                          <a href="contact" className="af-class-footer-link">Contact</a>
                         </li>
                       </ul>
                     </div>
                     <div className="af-class-footer-bottom">
                       <div className="af-class-footer-logo">
-                        <a href="index.html" className="w-inline-block"><img src="images/logo_1.svg" loading="lazy" width={100} height="Auto" alt className="af-class-image-2" /></a>
+                        <a href="/" className="w-inline-block"><img src="images/logo_1.svg" loading="lazy" width={100} height="Auto" alt className="af-class-image-2" /></a>
                         <a href="https://goo.gl/maps/8RbYQLJX7fT2jNft9" className="af-class-link-3">Cihangir Mahallesi Pürtelaş, <br />Sokak No:3A Beyoğlu/ İstanbul</a>
                         <p className="af-class-footer-address">Cihangir Mahallesi Pürtelaş, <br />Sokak No:3A Beyoğlu/ İstanbul<br /></p>
                       </div>
-                      <p className="af-class-copyright">© 2022 Solo Architects<br />Powered by <a href="https://www.gnu.org/gnu/gnu.html" target="_blank">GNU/Linux</a>
+                      <p className="af-class-copyright">© 2022 Solo Architects<br />Powered by <a href="https://www.gnu.org/gnu/gnu" target="_blank">GNU/Linux</a>
                       </p>
                     </div>
                   </div>

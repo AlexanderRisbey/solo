@@ -60,9 +60,9 @@ class UnauthorizedView extends React.Component {
     return (
       <span>
         <style dangerouslySetInnerHTML={{ __html: `
-          @import url(C:\\css\\normalize.css);
-          @import url(C:\\css\\webflow.css);
-          @import url(C:\\css\\solo-architects.webflow.css);
+          @import url(/css/normalize.css);
+          @import url(/css/webflow.css);
+          @import url(/css/solo-architects.webflow.css);
         ` }} />
         <span className="af-view">
           <div>
