@@ -199,7 +199,7 @@ const IndexView = () => {
                     </div>
                     <div className="af-class-div-block-3">
                       <div className="af-class-project-grid-category" />
-                      <h4 className="af-class-project-grid-title-copy" />
+                       <h4 className="af-class-project-grid-title-copy" />
                       <p className="af-class-project-grid-content" />
                     </div>
                   </a>
